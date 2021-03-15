@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Error = () => {
+const Error = ({ error }) => {
     return (
-        <div>
-            <h2>Error</h2>
+        <div className="error">
+            {error}
         </div>
     )
 }

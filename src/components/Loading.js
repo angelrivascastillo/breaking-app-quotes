@@ -1,9 +1,10 @@
 import React from 'react'
+import './loading.css'
 
 const Loading = () => {
     return (
-        <div>
-            <h2>loading</h2>
+        <div className="spinner">
+
         </div>
     )
 }
